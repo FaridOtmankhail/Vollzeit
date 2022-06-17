@@ -1,0 +1,120 @@
+body{
+  background-color: white;
+  margin: 0 auto;
+width: 50%;
+font-size: 24px;
+
+  
+}
+.week{
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  background-color: white;
+  box-shadow: 0 0 0.5em #000a;
+  margin-top: 50px;
+  border-radius: 15px;
+  height: 400px;
+  
+  
+  }
+.box{
+  grid-row: 1 / span 12;
+  grid-column-end: span 2;
+  text-align: center;
+  border-right: 1px solid lightgrey;
+  padding: 15px;
+ 
+
+}
+.day1{
+  grid-column-start: 1;
+ 
+  
+}
+.day2{
+  grid-column-start: 3;
+
+   
+  
+  }
+.day3{
+  grid-column-start: 5;
+
+  }
+.day4{
+  grid-column-start: 7;
+ 
+   
+  
+  }
+.day5{
+  grid-column-start: 9;
+
+ 
+  
+  }
+.day6{
+  grid-column-start: 11;
+
+  
+  }
+.day7{
+  grid-column-start: 13;
+   
+  }
+  .work1{
+    grid-area: 3 / 2 / span 1/ span 7;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 0 0 0.5em blue;
+    transition: 2s ease-out;
+
+  }
+  .work2{
+    grid-area: 5/ 3/ span 1/ span 4;
+    background-color: lightgreen;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 0 0 0.5em red;
+  
+  }
+  .work3{
+    grid-area: 7 / 5/ span 1/ span 5;
+    background-color: pink;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 0 0 0.5em red;
+  }
+  .work4{
+    grid-area: 6 / 7 / span 1/ span 5;
+    background-color: pink;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 0 0 0.5em red;
+  }
+  .work5{
+    grid-area: 9/ 8/ span 1/ span 5;
+    background-color: lightblue;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 0 0 0.5em black;
+  }
